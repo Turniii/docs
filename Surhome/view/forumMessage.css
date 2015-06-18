@@ -1,0 +1,17 @@
+fieldset{
+    width:700px;
+    display: inline-block;
+    margin:auto;
+}
+
+label{
+    display:block;
+    float: left;
+    width: 230px;
+} 
+#contenuMess {
+    display: block;
+    width:710px;
+    margin:auto;
+    margin-top : 50px;
+}

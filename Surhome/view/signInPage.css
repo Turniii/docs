@@ -1,0 +1,29 @@
+
+
+
+#inscription{
+    width:400px;
+    height:70%;
+    border:1px solid black;
+    border-radius:10px;
+    margin:auto;
+    padding:2%;
+    background-color:white;
+}
+
+textarea{
+    width:97%;
+    height:50%;
+}
+
+#adresse{
+    margin-top:20px
+}
+
+h2{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:-15px;
+    margin-bottom:5px;
+}

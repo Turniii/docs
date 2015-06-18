@@ -1,0 +1,66 @@
+#BOEntete {
+    display:block;
+    margin:auto;
+    width:600px;
+    font-size: 1.2em;
+}
+#BOEntete h1 {
+    text-align: center;
+    position:relative;
+    color: rgb(250,243,207);
+}
+.BOliens {
+    margin-left:30px;
+    position: relative;
+    bottom:15px;
+    font-size: 1.2em;
+    color:black;
+}
+.BOliens:hover {
+    color:#5F1A1A;
+}
+#listeMembres {
+    text-align: center;
+    margin:auto;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+#listeMembres td {
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding:5px;
+}
+#listeMembres .coli {
+    background-color: grey;
+}
+#listeMembres .colp {
+    background-color: lightgrey;
+}
+
+#listeMembres .BOAction {
+    padding:5px 8px;
+    text-decoration: underline;
+}
+#listeMembres .BOAction:hover {
+    color: white;
+    cursor: pointer;
+}
+/* CSS pagination  */
+.liensPagination {
+     display:inline-block;
+     margin-top : 20px;
+     margin-left:20px;
+     font-size: 1.2em;
+     text-decoration: none;
+     color:rgb(250,243,207);
+}
+.liensPagination:hover {
+    color:white;
+    font-weight:bold;
+}
+.lienMessage {
+    color:black;
+}
+.lienMessage:hover {
+    color:white;
+}

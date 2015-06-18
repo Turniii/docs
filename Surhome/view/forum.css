@@ -1,0 +1,72 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('Pictures/Lobster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table {
+    margin:auto;
+    margin-top:10px;
+    border: medium solid #6495ed;
+    border-collapse: collapse;
+    width: 50%;
+}
+th {
+    font-family: monospace;
+    font-size:1.7em;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding:1px;
+    background-color: #D0E3FA;
+    font-weight:bold;
+
+}
+td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width:50%;
+    text-align: center;
+    background-color: #ffffff;
+    font-weight:bold;
+    height:99%;
+}
+
+#but{
+    font-family: monospace;
+    font-size:1.6em;
+    font-weight:bold;
+    display:inline-block;
+    width: 290px;
+    text-align: center;
+    border:solid white 3px;
+    border-radius:5px;
+    background-color:#D0E3FA;
+    margin-left:25%;
+    
+}
+
+a{
+    text-decoration:none;
+    color:rgb(0,96,191);
+}
+.couleurS a {
+    display: block;
+    line-height:90%;
+    width:100%;
+}
+
+/* CSS pagination  */
+.liensPagination {
+     display:inline-block;
+     margin-top : 20px;
+     margin-left:20px;
+     font-size: 1.2em;
+     text-decoration: none;
+     color:rgb(250,243,207);
+}
+.liensPagination:hover {
+    color:white;
+    font-weight:bold;
+}

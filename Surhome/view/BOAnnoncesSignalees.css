@@ -1,0 +1,66 @@
+#BOEntete {
+    display:block;
+    margin:auto;
+    width:500px;
+    font-size: 1.2em;
+}
+#BOEntete h1 {
+    text-align: center;
+    position:relative;
+    color: rgb(250,243,207);
+}
+.BOliens {
+    margin-left:30px;
+    position: relative;
+    bottom:15px;
+    font-size: 1.2em;
+    color:black;
+}
+.BOliens:hover {
+    color:#5F1A1A;
+}
+#listeAnnonces {
+    text-align: center;
+    margin:auto;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+#listeAnnonces td {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding:5px;
+}
+#listeAnnonces .coli {
+    background-color: grey;
+}
+#listeAnnonces .colp {
+    background-color: lightgrey;
+}
+
+#listeAnnonces .BOAction {
+    padding:5px 8px;
+    text-decoration: underline;
+}
+#listeAnnonces .BOAction:hover {
+    color: white;
+    cursor: pointer;
+}
+.lienMessage {
+    color:black;
+}
+.lienMessage:hover {
+    color:white;
+}
+/* CSS pagination  */
+.liensPagination {
+     display:inline-block;
+     margin-top : 20px;
+     margin-left:20px;
+     font-size: 1.2em;
+     text-decoration: none;
+     color:rgb(250,243,207);
+}
+.liensPagination:hover {
+    color:white;
+    font-weight:bold;
+}

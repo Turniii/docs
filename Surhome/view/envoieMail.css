@@ -1,0 +1,32 @@
+
+#block_mail{ 
+    background-color: rgb(250,243,207);
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+}
+h2{
+    text-align: center;
+}
+
+th{
+    display: block;
+    position: relative;
+    text-align: right;
+    font-weight: normal;
+}
+form{
+    display: block;
+}
+.button{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20px;
+  
+    
+}

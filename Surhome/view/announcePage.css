@@ -1,0 +1,254 @@
+@font-face 
+{
+    font-family: 'Lobster';
+    src: url('pictures/Lobster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1
+{
+    width: 500px;
+    margin-left: 200px;
+    font-weight: bold;
+    display: inline-block;
+    color: rgb(250,243,207);
+}
+
+#top_box
+{
+    display: inline-block; 
+    width: 85%;
+}
+
+.top_button2
+{
+    margin-top: -30px;
+    font-weight: bold;
+    font-family:  'Lobster',arial, sans-serif;
+}
+
+.top_button1
+{
+    margin-top: 20px;
+    float: right;
+    font-weight: bold;
+    font-family:  'Lobster',arial, sans-serif;
+}
+
+.top_button1, .top_button2
+{
+    color: black;
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 0%;
+    width: 150px;
+    font-weight: bold;
+    background-color:rgb(250,243,207);
+    border-radius:10px/10px;
+    border: 1px solid black;
+}
+
+.top_button1:hover{
+    background-color:rgb(180,210,224);
+    color:white;}
+
+.top_button2:hover{
+    background-color:rgb(180,210,224);
+    color:white;}
+
+.top_button11, .top_button22
+{
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 0%;
+    width: 150px;
+    background-color:rgb(250,243,207);
+    border-radius:10px/10px;
+    border: 1px solid black;
+    font-family:  'Lobster',arial, sans-serif;
+}
+
+.top_button22
+{
+    margin-top: 10px;
+}
+
+.top_button11
+{
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+
+.top_button11:hover{
+    background-color:rgb(180,210,224);
+    color:white;}
+
+.top_button22:hover{
+    background-color:rgb(180,210,224);
+    color:white;}
+
+#date_button
+{
+    font-family: 'Lobster';
+    color: black;
+    background-color:rgb(180,210,224);
+    text-align: center;
+    position: relative;
+    width: 180px;
+    font-weight: bold;
+    border-radius:10px/10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#date_button:hover{
+    background-color:rgb(180,210,224);
+    color:white;}
+
+#liste
+{
+    display: none;
+    border: 1px solid black;
+    width: 220px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.button 
+{
+    color: black;
+    vertical-align: middle; 
+    font-size: 1.2em;
+    padding: 5px 10px 5px 10px ;
+    background-color:rgb(180,210,224);
+    border-radius:10px/10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    font-family:  'Lobster',arial, sans-serif;
+}
+
+.button:hover{
+    background-color:rgb(180,210,224);
+    color:white;}
+
+#maison
+{
+    margin: auto;
+    //width: 85%;
+    width: 1150px;
+    position: relative;
+    text-align: center;
+}
+
+#photos_maison
+{
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+#infos_maison
+{
+    width: 40%;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#infos_maison, #photos_maison
+{
+    background-color:rgb(250,243,207);
+    border: 2px solid black;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.photo_mini
+{
+    margin-left: 70px;
+}
+
+.titre_photo
+{
+    display: inline-block;
+    margin-left: 25%;
+}
+
+
+#description_case
+{
+    margin-left: 100px;
+}
+
+fieldset
+{
+    margin-left: 20%;
+    //width: 50%;
+    width: 700px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:rgb(250,243,207);
+    text-align: center;
+}
+
+.champ
+{
+    margin-top: -2px;
+}
+
+#carrousel{
+    position:relative;
+    height:200px;
+    width:80%;
+    margin:auto;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+#precedent,#suivant{
+	display:inline-block;
+	border-radius: 50px;
+	font-size: 1.5em;
+	font-family: Helvetica;
+	width:30px;
+	text-align: center;
+}
+
+li{
+	list-style: none;
+}
+
+#precedent{
+	position: absolute;
+	top:30px;
+	left:5px;
+}
+#suivant{
+	position: absolute;
+	top:30px;
+	right:15px;
+}
+
+#precedent:hover,#suivant:hover{
+	opacity: 0.8;
+
+	}
+#infos_maison p {
+        display: inline-block;
+}
+
+.eval {
+    margin-left: 32%;
+}

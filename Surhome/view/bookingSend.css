@@ -1,0 +1,98 @@
+@font-face  
+{
+    font-family: 'Lobster';
+    src: url('pictures/Lobster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#choix_maison
+{
+   
+    width: 800px;
+    background-color: rgb(250,243,207);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    padding-bottom: 35px;
+}
+
+h3
+{
+    margin-left: 3%;
+}
+
+.titre
+{
+    display: inline-block;
+}
+
+fieldset
+{
+    width: 750px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(250,243,207);
+}
+
+#coche
+{
+    display: inline-block;
+    width: 40px;
+    position: relative;
+    bottom: 85px;
+    
+}
+
+#photo
+{
+    display: inline-block;
+    width: 280px;
+}
+
+#infos
+{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    bottom: 70px;
+}
+
+#dates
+{
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+#date_case
+{
+    margin-top: -15px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.button 
+{
+    color: black; 
+    font-size: 1.2em;
+    padding: 5px 10px 5px 10px ;
+    background-color:rgb(180,210,224);
+    border-radius:10px/10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Lobster',arial, sans-serif;
+    position: relative;
+    top: 15px;
+    left: 360px;
+    
+}
+
+.button:hover{
+    background-color:rgb(152,181,169);
+    color:white;}

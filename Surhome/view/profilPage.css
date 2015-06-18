@@ -1,0 +1,50 @@
+
+
+#page_block {
+   width:100%;
+   margin: auto;
+   font-family: 'lobster';
+    //background-color: rgb(160,164,184);
+}
+
+#inscription{
+    position:absolute;
+    width:500px;
+    border:1px solid black;
+    border-radius:10px;
+    margin: auto;
+    margin-top:5%;
+    padding:2%;
+    background-color:white;
+    position: relative;
+    top:30px;
+}
+
+textarea{
+    width:97%;
+    height:50%;
+}
+
+#adresse{
+    margin-top:20px
+}
+
+h2{
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:-15px;
+    margin-bottom:5px;
+}
+.modifChamp:hover, .modifChamp1:hover, .modifChamp2:hover, .modifChamp3:hover, #prompt_button:hover, #Mail {
+    cursor:pointer;
+}
+section {
+    display:block;
+    width:300px;
+    margin: auto;
+}
+#info_perso td {
+    display:inline-block;
+    margin-left: 50px;
+}

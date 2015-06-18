@@ -1,0 +1,51 @@
+#menu_profil ul {
+ list-style-type: none;
+    
+}
+
+#menu_profil {
+    display: inline-block;
+    background-color: rgb(250,243,207);
+    border-radius: 10px/10px;
+    border:1px solid black;
+    font-family: 'lobster';
+    font-size:1.2em;
+    height:85px;
+    margin-left: 5%;
+    margin-top:10%
+}
+
+#menu_profil ul{
+    margin-top:1px;
+}
+
+#menu_profil li {
+
+    margin-left:-40px;
+    text-align: center;
+}
+#menu_profil a {
+    display:inline-block;
+    color:black;
+    text-decoration: none;
+    width: 150px;
+    border-top: 1px solid gray;
+    
+}
+#haut{
+
+    margin-top:-1px;
+    padding-top:2px;
+    padding-bottom: 1px;
+    border-radius: 10px 10px 0 0;}
+#bas{
+    border-radius:0 0 10px 10px;
+    padding-bottom: 2px;
+}
+#menu_profil a:hover{
+    background-color:rgb(250,243,207);
+}
+aside {
+    width:13%;
+    display:inline-block;
+}

@@ -1,0 +1,34 @@
+#tableNew label {
+    display:inline-block;
+    width: 100px;
+}
+#BOMess {
+    display: block;
+    width: 700px;;
+    margin: auto;
+}
+#mailChamp {
+    margin-left: 5px;
+    display: none;
+}
+#BOEntete {
+    display:block;
+    margin:auto;
+    width:600px;
+    font-size: 1.2em;
+}
+#BOEntete h1 {
+    text-align: center;
+    position:relative;
+    color: rgb(250,243,207);
+}
+.BOliens {
+    margin-left:30px;
+    position: relative;
+    bottom:15px;
+    font-size: 1.2em;
+    color:black;
+}
+.BOliens:hover {
+    color:#5F1A1A;
+}

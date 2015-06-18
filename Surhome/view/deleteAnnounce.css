@@ -1,0 +1,59 @@
+@font-face 
+{
+    font-family: 'Lobster';
+    src: url('pictures/Lobster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#supp
+{
+    text-align: center;
+}
+
+.button
+{
+    color: black; 
+    font-size: 1.2em;
+    padding: 5px 10px 5px 10px ;
+    background-color:rgb(250,243,207);
+    border-radius:10px/10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Lobster',arial, sans-serif;
+}
+
+.button:hover{
+    background-color:rgb(152,181,169);
+    color:white;}
+
+#buttons
+{
+    text-align: center;
+}
+
+.button_ok2
+{
+    color: black; 
+    font-size: 1.2em;
+    padding: 5px 10px 5px 10px ;
+    background-color:rgb(250,243,207);
+    border-radius:10px/10px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family:  'Lobster',arial, sans-serif;
+}
+
+.button_ok2:hover{
+    background-color:rgb(152,181,169);
+    color:white;}
+
+#oui{
+    margin-right: 10px;
+}
+
+#non{
+    margin-left: 10px;
+}

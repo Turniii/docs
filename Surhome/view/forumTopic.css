@@ -1,0 +1,77 @@
+.topictitle {
+    width:600px;
+    margin:auto;
+    font-family: monospace;
+}
+
+.msg{
+    position:relative;
+    border: solid 3px;
+    border-radius:10px;
+    width:630px;
+    border-color:rgb(72,189,234);
+    margin-bottom: 5px;
+    margin:auto;
+    margin-top:7px;
+    background-color:#D0E3FA;
+    box-shadow:3px 3px rgb(0,98,145);
+}
+
+.conte{
+    font-family: monospace;
+    width:590px;
+    padding:5px;
+    margin:auto;
+    margin:5px;
+    background-color:white;
+    border-radius:5px;
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+#reponse{
+    padding-top:10px;
+    width:610px;
+    margin:auto;
+}
+
+.dh{
+    width:25%;
+    position:absolute;
+    right:0px;
+    top:10px;
+}
+
+.psdo{
+    width:40%;
+    margin-left:15px;
+}
+
+#suppconv{
+    width:150px;
+    margin-left:63%;
+    margin-bottom:15px;
+}
+
+.suppmessage{
+    width:90px;
+    margin-left:2%;
+    margin-top:-6px;
+    margin-bottom:10px;
+}
+/* CSS pagination  */
+.liensPagination {
+     display:inline-block;
+     margin-top : 20px;
+     margin-left:20px;
+     font-size: 1.2em;
+     text-decoration: none;
+     color:rgb(250,243,207);
+}
+.liensPagination:hover {
+    color:white;
+    font-weight:bold;
+}

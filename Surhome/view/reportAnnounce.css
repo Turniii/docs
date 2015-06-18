@@ -1,0 +1,15 @@
+body
+{
+    text-align: center;
+}
+
+#title, #text
+{
+    margin-top: -10px;
+}
+
+#text
+{
+    width: 500px;
+    height: 100px;
+}

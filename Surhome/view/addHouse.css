@@ -1,0 +1,95 @@
+
+#cadre{
+    margin: auto;
+    font-family: 'lobster';
+    background-color: rgb(160,164,184);
+}
+
+#search_block{
+    width:100%;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Lobster';
+    
+}
+label,legend{
+    font-family: 'lobster';
+}
+.align label{
+    display:block;
+    float: left;
+    width: 160px;
+}
+.align select{
+    display:block;
+    float: left;
+    width: 160px;
+}
+
+.indication{
+    color: red;
+    float: right;
+    position :relative;
+    top : -40px;
+    right: 0%;
+    font-family: lobster;
+}
+article{
+    background-color: white;
+    margin: auto;
+    border: 2px solid grey;
+    position: relative;
+    top:-80px;
+    border-radius:10px;
+    width: 550px;
+}
+.item{
+    width: 300px;
+    clear:both;
+    padding-left: 20px;
+}
+div .left {
+    float:left;
+    width:140px;
+    margin-right: 10px;
+    margin-top: -2px;
+    
+}
+div .right {
+    float:right;
+    width:250px;
+    margin-left: 0px;
+    margin-top: -2px;
+}
+
+.nombre{
+    float:left;
+    margin-top: 40px;
+}
+
+
+.item label{
+    margin-left: 2px;
+}
+fieldset{
+    width:400px;
+    position: relative;
+    margin-right:auto;
+    margin-top: 10px;
+    border:2px solid grey;
+
+}
+#annule{
+    position:relative;
+    float:right;
+}
+#annule:hover{
+    color: aquamarine;
+    font-family: 'lobster';
+}
+textarea{
+    width:95%;
+    height:50%;
+}

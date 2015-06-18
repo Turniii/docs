@@ -1,0 +1,86 @@
+@font-face
+{
+    font-family: 'Lobster';
+    src: url('../pictures/Lobster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    display: block;
+    width: 98%;
+    margin: auto;
+    background-image: url('../pictures/estagnol.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+    font-family: 'lobster';
+}
+
+
+#page {
+    display:block;
+    position: relative;
+    margin: auto;
+    margin-top:50px;
+    text-align: center;
+    border:2px solid black;
+    width: 500px;
+    height:240px;
+    background-color:rgb(250,243,207);
+    font-family: lobster;
+    border-radius:10px;
+}
+#titre_connexion {
+    font-size:30px;
+    text-decoration: underline;
+    color: black;   
+}
+#oublie_aide {
+    display:inline-block;
+    float:left;
+    font-size:14px;
+    margin:20px 2px 2px 20px;
+    }
+#oublie_aide a {
+        display:block;
+        color:gray;
+        margin-top: -15px;
+        position:relative;
+        top:20px;
+}
+#oublie_aide a:hover {
+    color:black;
+}
+.boutons_connexion {
+    font-family: 'Lobster';
+    display : inline-block;
+    float:left;
+    text-decoration: none;
+    color:black;
+    font-size:1.2em;
+    padding:5px 10px 5px 10px ;
+    margin-right:1px;
+    position:relative;
+    left:30px;
+    top:20px;
+    background-color:rgb(180,210,224);
+    border-radius:10px/10px;
+    border: 1px solid black;
+}
+.boutons_connexion:hover {
+    background-color:rgb(180,210,224);
+    color:white;
+}
+#page input{
+    display:inline;
+    position:relative;
+    left:95px;
+}
+
+#page label{
+    display:inline;
+    width:100px;
+    float:left;
+    position : absolute;
+    left:35px;
+
+}

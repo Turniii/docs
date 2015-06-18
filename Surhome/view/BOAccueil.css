@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+h1 {
+    padding-top: 10px;
+}
+.BOliens {
+    margin-left:50px;
+    font-size:1.2em;
+    margin-top: 40px;
+    display:inline-block;
+    text-decoration: underline;
+    color:black;
+}
+.BOliens1 {
+    font-size:1.2em;
+    margin-top: 40px;
+    display:inline-block;
+    text-decoration: underline;
+    color:black;
+
+}
+.BOliens:hover, .BOliens1:hover {
+    color:#5F1A1A;
+}
+#BOBlocliens {
+    padding-bottom: 100px;
+}
